@@ -74,16 +74,17 @@ Example:
 MongoDB connection
 MONGO_URI=mongodb+srv://<dbuser>:<password>@cluster.mongodb.net/dbname?
 
-JWT settings
-JWT_SECRET=*************
-JWT_ALGORITHM=HS256
-ACCESS_TOKEN_EXPIRE_MINUTES=60
+JWT settings  
 
-# Debug mode
+JWT_SECRET=*************  
+
+JWT_ALGORITHM=HS256  
+
+ACCESS_TOKEN_EXPIRE_MINUTES=60  
+
 DEBUG=false
 
 The .env file is not committed to the repository.
-
 
 ## Running the Application
 
