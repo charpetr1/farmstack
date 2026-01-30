@@ -81,7 +81,6 @@ ACCESS_TOKEN_EXPIRE_MINUTES=60
 
 # Debug mode
 DEBUG=false
-###############################################################
 
 The .env file is not committed to the repository.
 
