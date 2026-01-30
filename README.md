@@ -251,7 +251,8 @@ The architecture is fully reproducible on any system with Docker installed
 Η διαδικασία deployment περιλαμβάνει τα εξής βήματα:
 1. Δημιουργία του αρχείου περιβάλλοντος (.env) για το backend, βασισμένο στο παρεχόμενο template, με τα στοιχεία σύνδεσης στο MongoDB Atlas.
 2. Εκτέλεση της εντολής:
-```bash docker compose up --build
+```bash
+docker compose up --build
 ```
 3. Το Docker: χτίζει τα images για frontend και backend, ξεκινά τα containers, ρυθμίζει την εσωτερική επικοινωνία των services
 4. Το frontend σερβίρεται μέσω Nginx, ενώ το backend API είναι διαθέσιμο μέσω HTTP.
