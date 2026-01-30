@@ -1,6 +1,6 @@
 # Farmstack API & Web Application
 
-Full‑stack web application built with a React (TypeScript) frontend, a FastAPI backend, and an Nginx reverse proxy.  
+Full‑stack web application built with a **React (TypeScript)** frontend, a **FastAPI** backend, and an **Nginx** reverse proxy.  
 The application uses **MongoDB Atlas** as a cloud database and is fully containerized using **Docker Compose**.
 
 This project is designed with clear architecture, reproducible setup, and documented API endpoints.
