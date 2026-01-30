@@ -1,0 +1,44 @@
+.sidebar {
+  width: 220px;
+  background: var(--card-bg);
+  border-right: 1px solid var(--border-color);
+  padding: 1.5rem 1rem;
+  flex-shrink: 0;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.nav a {
+  text-decoration: none;
+  padding: 0.6rem 0.8rem;
+  border-radius: 6px;
+  color: var(--text-primary);
+  font-weight: 500;
+}
+
+.nav a:hover {
+  background: var(--hover-bg);
+}
+
+.active {
+  background: #2563eb;
+  color: white;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    border-right: none;
+    border-bottom: 1px solid var(--border-color);
+  }
+
+  .nav {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

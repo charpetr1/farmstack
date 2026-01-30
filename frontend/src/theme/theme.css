@@ -1,0 +1,21 @@
+/* Light theme */
+:root {
+  --bg: #ffffff;
+  --text: #222222;
+  --primary: #007bff;
+  --card-bg: #f7f7f7;
+}
+
+/* Dark theme */
+[data-theme="dark"] { 
+  --bg: #4b5563;
+  --card-bg: #6b7280; 
+  --text: #f9fafb; 
+  --primary: #93c5fd;
+}
+
+.theme-button {
+  background: var(--card-bg);
+  color: var(--text);
+  border: 1px solid var(--primary);
+}

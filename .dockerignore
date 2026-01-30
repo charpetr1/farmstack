@@ -1,0 +1,32 @@
+# Git
+.git
+.gitignore
+
+# Node
+node_modules
+frontend/node_modules
+frontend/dist
+
+# Python
+backend/__pycache__
+backend/.pytest_cache
+*.pyc
+
+# Env & secrets
+.env
+backend/.env
+
+# Python virtual environments
+venv/
+.env/
+
+# Editor folders
+.vscode/
+.idea/
+
+# Logs & OS
+*.log
+.DS_Store
+
+# Docker
+docker-compose.override.yaml
