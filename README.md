@@ -50,22 +50,6 @@ The backend exposes a REST API for authentication, list management, and item man
 - Reverse Proxy: Nginx (Alpine)
 - Containerization: Docker, Docker Compose
 
-## Brief Project Structure
-
-├── backend/
-│   ├── server.py          # FastAPI application entry point
-│   ├── api/               # API routers (auth, lists, items)
-│   ├── db/                # Database utilities and indexes
-│   ├── .env.template      # Environment variables template
-│   └── ...
-├── frontend/
-│   └── ...
-├── nginx/
-│   └── nginx.conf
-├── docker-compose.yaml
-└── README.md
-
-
 ## Environment Configuration (MongoDB Atlas)
 
 The backend connects to **MongoDB Atlas** using environment variables.
