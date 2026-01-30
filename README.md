@@ -250,7 +250,7 @@ The architecture is fully reproducible on any system with Docker installed
 Όλα τα επιμέρους μέρη της εφαρμογής (frontend, backend, reverse proxy) εκτελούνται σε ξεχωριστά containers, τα οποία συντονίζονται μέσω ενός ενιαίου docker-compose.yml αρχείου.
 Η διαδικασία deployment περιλαμβάνει τα εξής βήματα:
 1. Δημιουργία του αρχείου περιβάλλοντος (.env) για το backend, βασισμένο στο παρεχόμενο template, με τα στοιχεία σύνδεσης στο MongoDB Atlas.
-2. Εκτέλεση της εντολής: ```bash docker compose up --build```
+2. Εκτέλεση της εντολής: ```bash docker compose up --build ```
 3. Το Docker: χτίζει τα images για frontend και backend, ξεκινά τα containers, ρυθμίζει την εσωτερική επικοινωνία των services
 4. Το frontend σερβίρεται μέσω Nginx, ενώ το backend API είναι διαθέσιμο μέσω HTTP.
 5. Η εφαρμογή είναι έτοιμη προς χρήση μέσω browser, ενώ το API μπορεί να ελεγχθεί μέσω Swagger UI ή FastAPI ReDoc
